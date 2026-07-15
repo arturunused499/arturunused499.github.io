@@ -1,16 +1,17 @@
 .responsive-three-columns {
     display:flex;
     flex-wrap:wrap;
+    padding:15px;
 }
 
 .responsive-three-columns * > {
     width:100%;
-    padding:1rem;
 }
 
 .responsive-three-columns * > img {
     width:400px;
     height:auto;
+    padding:15px;
 }
 
 @media (min-width:768px) {
